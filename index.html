@@ -4,7 +4,226 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shrimati Hansa Mehta Library</title>
-    <link rel="stylesheet" href="styles.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        width: 100vw;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow-x: hidden;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 80%;
+        margin: 15vw auto;
+        gap: 10vw;
+      }
+
+      .metadata {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25vw;
+      }
+
+      .metapoint {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5vw;
+        font-size: 2.8vw;
+      }
+
+      .meta-title {
+        font-weight: bold;
+      }
+
+      .overview {
+        width: 100%;
+        text-align: start;
+        font-size: 4vw;
+        line-height: 1.5;
+      }
+
+      .about {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 2.5vw;
+      }
+
+      .about-title {
+        font-size: 5vw;
+        font-weight: bold;
+      }
+
+      .about ul {
+        margin-left: 5vw;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75vw;
+      }
+
+      .about li {
+        font-size: 4vw;
+        line-height: 1.5;
+      }
+
+      .service {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 2.5vw;
+      }
+
+      .service-title {
+        font-size: 4vw;
+        font-weight: bold;
+      }
+
+      .outer-layer {
+        font-size: 4vw;
+        font-weight: bold;
+        list-style-type: decimal;
+        margin-left: 5vw;
+        display: flex;
+        flex-direction: column;
+        gap: 1.25vw;
+      }
+
+      .inner-layer {
+        font-size: 3.5vw;
+        font-weight: normal;
+        list-style-type: circle;
+        margin-left: 5vw;
+        line-height: 1.5;
+      }
+
+      .rules {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5vw;
+        font-weight: bold;
+      }
+
+      .rules-title {
+        font-size: 5vw;
+      }
+
+      .rules ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25vw;
+        list-style-type: "✅";
+        font-size: 4vw;
+        margin-left: 5vw;
+        line-height: 1.5;
+      }
+
+      .facilities {
+        display: flex;
+        flex-direction: column;
+        gap: 2.5vw;
+        width: 100%;
+      }
+
+      .facilities-title {
+        font-weight: bold;
+        font-size: 5vw;
+      }
+
+      .facilities table {
+        font-size: 4vw;
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+
+      .facilities td {
+        padding: 1vw;
+        border: solid black 0.1vw;
+        text-align: center;
+      }
+
+      .facilities .table-head {
+        font-weight: bold;
+      }
+
+      .membership {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25vw;
+      }
+
+      .mem-title {
+        font-weight: bold;
+        font-size: 4vw;
+      }
+
+      .membership ul {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75vw;
+        font-size: 4vw;
+        margin-left: 5vw;
+      }
+
+      .registration {
+        display: flex;
+        flex-direction: column;
+        gap: 2.5vw;
+        width: 100%;
+      }
+
+      .registration-title {
+        font-size: 5vw;
+        font-weight: bold;
+      }
+
+      .registration-contents {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25vw;
+        font-size: 4vw;
+      }
+
+      .registration-content {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75vw;
+      }
+
+      .registration-content ul {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5vw;
+        gap: 0.5vw;
+      }
+
+      .reg-footer {
+        font-size: 4vw;
+      }
+
+      .footer table {
+        font-size: 4vw;
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+
+      .footer td {
+        padding: 1.5vw 2vw;
+        text-align: center;
+        border: solid black 0.1vw;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
@@ -27,7 +246,11 @@
         </div>
         <div class="metapoint">
           <p class="meta-title">📍 Location:</p>
-          <p>[Add Location Here]</p>
+          <a
+            href="http://google.com/maps/place/Smt+Hansa+Mehta+Library/data=!4m2!3m1!1s0x0:0x9f9e6db9713c542?sa=X&ved=1t:2428&ictx=111"
+            target="_blank"
+            >Here</a
+          >
         </div>
       </div>
       <div class="overview">
